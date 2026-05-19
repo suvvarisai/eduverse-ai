@@ -92,3 +92,38 @@ It uses AI + 3D + simulations to teach subjects like Math, Chemistry, Physics, a
 ### Step 1: Install dependencies
 ```bash
 npm install
+Step 2: Run project
+npm run dev
+🔑 Environment Variables
+
+Create .env file:
+
+VITE_GEMINI_API_KEY=your_api_key
+
+VITE_FIREBASE_API_KEY=your_key
+VITE_FIREBASE_AUTH_DOMAIN=your_key
+VITE_FIREBASE_PROJECT_ID=your_key
+VITE_FIREBASE_STORAGE_BUCKET=your_key
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_key
+VITE_FIREBASE_APP_ID=your_key
+
+📊 Firebase Features
+User authentication
+Quiz score storage
+Learning progress tracking
+Achievements system
+Analytics dashboard
+🚀 Future Improvements
+AI voice assistant
+AR/VR learning mode
+Multiplayer quizzes
+Live collaboration
+Advanced simulations
+
+⚠️ Disclaimer
+
+This project is built for educational and hackathon purposes. AI-generated content may sometimes be inaccurate.
+
+👨‍💻 Author
+
+Sai Suvvari
