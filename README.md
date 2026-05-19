@@ -1,16 +1,79 @@
-# React + Vite
+# EduVerse AI Ultimate
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EduVerse AI Ultimate is an AI-powered interactive learning platform designed to make education visual, practical, and engaging using AI, 3D simulations, quizzes, and immersive learning experiences.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+### AI-Powered Learning
+- AI Tutor using Gemini API
+- AI Doubt Solving Assistant
+- AI-generated explanations
+- Smart quizzes and summaries
+- Personalized learning support
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Mathematics Interactive Lab
+- Graph visualizer
+- Algebra solver
+- Geometry explorer
+- Trigonometry visualization
+- Calculus simulations
 
-## Expanding the ESLint configuration
+### Chemistry Interactive Lab
+- Full interactive periodic table
+- 3D atom visualization
+- Chemical reaction simulations
+- Molecule explorer
+- Bonding visualization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Human Anatomy Explorer
+- Realistic 3D human body
+- Organ exploration
+- Blood circulation simulation
+- Breathing animations
+- Interactive anatomy learning
+
+### Physics Simulation Lab
+- Gravity simulation
+- Projectile motion
+- Force and motion visualization
+- Interactive experiments
+
+### Smart Features
+- Adaptive quiz system
+- Firebase progress tracking
+- Analytics dashboard
+- Achievement system
+- Responsive UI
+
+---
+
+## Tech Stack
+
+Frontend:
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+Backend & Database:
+- Firebase Authentication
+- Firebase Firestore
+
+AI:
+- Gemini API
+
+3D & Visualization:
+- Three.js
+- React Three Fiber
+- @react-three/drei
+
+---
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone https://github.com/yourusername/eduverse-ai.git
