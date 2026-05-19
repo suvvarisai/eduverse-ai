@@ -1,0 +1,10 @@
+Implementation Plan
+====================
+1. npm install firebase recharts
+2. src/firebase/config.js          — Firebase init + exports
+3. src/context/AuthContext.jsx     — Auth state (Google + Email)
+4. src/pages/Login.jsx             — Sign-in / Sign-up page
+5. src/pages/Dashboard.jsx         — Full rebuild with charts, badges, streak, etc.
+6. src/components/Layout.jsx       — Show real user avatar from Firebase
+7. src/components/Navbar.jsx       — Real user profile + sign out
+8. src/App.jsx                     — Protected routes with AuthContext
